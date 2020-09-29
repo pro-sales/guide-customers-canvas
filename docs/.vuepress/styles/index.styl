@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@require "separator.styl"
+
+html, body, * {
+  font-family: Montserrat, sans-serif;
+}
+
+.theme-container:not(.disable-separator) {
+  h1 {
+    separatorLeft($textColor)
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "doc-customers-canvas",
+  "version": "0.0.1",
+  "description": "Official documentation for the Customers Canvas Shopware plugin.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:start": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "markdown-it-imsize": "^2.0.1",
+    "vuepress": "^1.1.0",
+    "vuepress-plugin-medium-zoom": "^1.1.6"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1"
+  }
+}

@@ -1,0 +1,16 @@
+# ##############################################################################
+# GitIgnore - Specifies intentionally untracked files to ignore.
+#
+# https://git-scm.com/docs/gitignore
+# ##############################################################################
+
+# IntelliJ project files
+
+.idea
+*.iml
+out
+gen
+
+.vscode/
+
+node_modules/
