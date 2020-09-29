@@ -1,3 +1,0 @@
-Customer's Canvas Documentation
-
-;)
